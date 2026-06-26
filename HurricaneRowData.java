@@ -32,10 +32,6 @@ public class HurricaneRowData {
     //Override the native toString() method with a better representation of this object
     @Override
     public String toString() {
-        return "Year: " + year + "\n" +
-                "ACE Index: " + aceIndex + "\n" +
-                "# Of Tropical Storms: " + numTropStorms + "\n" +
-                "Total # of Hurricanes (Cat 1-5): " + numHurricanesCat_1_5 + "\n" +
-                "# of Major Hurricanes (Cat 3-5): " + numHurricanesCat_3_5;
+        return year + "\t" + aceIndex + "\t" + numTropStorms + "\t" + numHurricanesCat_1_5 + "\t" + numHurricanesCat_3_5;
     }
 }
