@@ -1,3 +1,4 @@
+//Name: Andrew Erickson
 
 public interface DoublyLinkedSortedListInterface
 {
